@@ -1,0 +1,8 @@
+**/.venv
+**/.idea
+**/.vscode
+**/sibr_module.egg-info
+**/dist
+**/__pycache__
+
+
