@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sibr_module"
+version = "0.1.0"
+description = "Custom package for Sibr AS"
+authors = [
+    {name = "Sibr AS", email = "sigvard@sibr.no"}
+]
+requires-python = ">=3.6"
+dependencies = [
+    "google-auth",
+    "google-cloud-bigquery",
+    "bigframes",
+    "pandas-gbq",
+    "numpy",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = {find = {where = ["src"]}}
