@@ -1,6 +1,5 @@
-**/*.venv
-**/*.env
-
-**/*.idea
-**/*.vscode
+**/.venv
+**/.idea
+**/.vscode
 **/sibr_module.egg-info
+
